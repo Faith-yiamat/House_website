@@ -1,0 +1,472 @@
+.Benefits{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.sofase{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+.livingroom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+button{
+    padding: 8px 6px;
+
+}
+.bedroom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.bigbed{
+    margin-right: 5%;
+    width: 400px;
+    height: 400px;
+}
+.dining{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    gap: 70px;
+    margin-top: 3%;
+    
+
+}
+.testimonials{
+    background-color: plum;
+    width: 35%;
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+.papers{
+  gap: 14px;
+}
+.ourblogs{
+    margin-left: 38%;
+}
+.fourimages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11%;
+
+}
+.lapiwithothers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3%;
+    width: 250px;
+    height: 250px;
+}
+.ordertoday{
+    margin-left: 20%;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin-left: 10%;
+}
+.ourproduct{
+   margin-left:35%; 
+   margin-top: 3%;
+}
+.product{
+    margin-left: 35%;
+    margin-top:3% ;
+}
+.choose{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.sofa{
+    width: 400px;
+    height: 400px;
+}
+.mirror{
+    width: 250px;
+    height: 250px;
+}
+.bigpic{
+    width: 350px;
+    height: 350px;
+}
+.image{
+    width: 60%;
+    margin-left: 10%;
+}
+@media screen and (min-width:280px) and (max-width:400px) {
+    .Benefits{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sofase{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+
+    }
+    .livingroom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    button{
+        padding: 8px 6px;
+    
+    }
+    .bedroom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    .bigbed{
+        margin-right: 5%;
+        width: 200px;
+        height: 200px;
+    }
+    .dining{
+        display: flex;
+        flex-direction:column;
+        gap: 70px;
+        margin-top: 3%;
+        
+    
+    }
+    .testimonials{
+        background-color: plum;
+        width: 35%;
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 90%;
+    
+    }
+    .papers{
+      gap: 14px;
+      display: flex;
+      flex-direction: column;
+    }
+    .ourblogs{
+        margin-left: 38%;
+    }
+    .fourimages{
+        display: flex;
+        flex-direction: column;
+        margin-left: 11%;
+
+    
+    }
+    .lapiwithothers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 3%;
+
+    }
+    .ordertoday{
+
+        margin-top: 20%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 10%;
+    }
+    .ourproduct{
+       margin-left:35%; 
+       margin-top: 3%;
+    }
+    .product{
+        margin-left: 35%;
+        margin-top:3% ;
+    }
+    .choose{
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    .sofa{
+        width: 100px;
+        height: 100px;
+    }
+    .mirror{
+        width: 70px;
+        height: 70px;
+
+    }
+    .bigpic{
+        width: 200px;
+        height: 200px;
+
+
+
+    }
+    .image{
+        width: 100%;
+        margin-left: 3%;
+        width: 100px;
+        height: 100px;
+
+    }
+    body{
+        font-size:x-small;
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    .Benefits{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sofase{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+
+    }
+    .livingroom{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    button{
+        padding: 8px 6px;
+    
+    }
+    .bedroom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    .bigbed{
+        margin-right: 5%;
+        width: 100px;
+        height: 100px;
+    }
+    .dining{
+        display: flex;
+        flex-direction:column;
+        gap: 70px;
+        margin-top: 3%;
+        
+    
+    }
+    .testimonials{
+        background-color: plum;
+        width: 35%;
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 90%;
+    
+    }
+    .papers{
+      gap: 14px;
+      display: flex;
+      flex-direction: column;
+    }
+    .ourblogs{
+        margin-left: 38%;
+    }
+    .fourimages{
+        display: flex;
+        flex-direction: row;
+        margin-left: 11%;
+    
+    }
+    .lapiwithothers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 3%;
+
+    }
+    .ordertoday{
+        margin-left: 20%;
+    
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+        margin-left: 10%;
+        width: 170%;
+        gap: 5px;
+    }
+    .ourproduct{
+       margin-left:35%; 
+       margin-top: 3%;
+    }
+    .product{
+        margin-left: 35%;
+        margin-top:3% ;
+    }
+    .choose{
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    .sofa{
+        width: 100px;
+        height: 100px;
+    }
+    .mirror{
+        width: 100px;
+        height: 100px;
+    }
+    .bigpic{
+        width: 150px;
+        height: 150px;
+
+
+
+    }
+    .image{
+        width: 100%;
+        margin-left: 3%;
+        width: 400px;
+        height: 300px;
+
+    }
+    body{
+        font-size:small;
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1025px) {
+    .Benefits{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sofase{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+
+    }
+    .livingroom{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    button{
+        padding: 8px 6px;
+    
+    }
+    .bedroom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    .bigbed{
+        margin-right: 5%;
+        width: 100px;
+        height: 100px;
+    }
+    .dining{
+        display: flex;
+        flex-direction:column;
+        gap: 70px;
+        margin-top: 3%;
+        
+    
+    }
+    .testimonials{
+        background-color: plum;
+        width: 35%;
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 90%;
+    
+    }
+    .papers{
+      gap: 14px;
+      display: flex;
+      flex-direction: column;
+    }
+    .ourblogs{
+        margin-left: 38%;
+    }
+    .fourimages{
+        display: flex;
+        flex-direction: row;
+        margin-left: 11%;
+    
+    }
+    .lapiwithothers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 3%;
+
+    }
+    .ordertoday{
+margin-top: 20%;    
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 10%;
+    }
+    .ourproduct{
+       margin-left:35%; 
+       margin-top: 3%;
+    }
+    .product{
+        margin-left: 35%;
+        margin-top:3% ;
+    }
+    .choose{
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    .sofa{
+        width: 100px;
+        height: 100px;
+    }
+    .mirror{
+        width: 100px;
+        height: 100px;
+    }
+    .bigpic{
+        width: 150px;
+        height: 150px;
+
+
+
+    }
+    .image{
+        width: 100%;
+        margin-left: 3%;
+        width: 400px;
+        height: 300px;
+
+    }
+    body{
+        font-size:small;
+        background-color: aqua;
+    }
+}
